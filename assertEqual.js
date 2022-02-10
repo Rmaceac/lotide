@@ -7,7 +7,7 @@ const assertEqual = (actual, expected) => {
 };
 
 // Test code
-// assertEqual("Lighthouse Labs", "Bootcamp");
+assertEqual(("Lighthouse Labs", "Bootcamp"), false);
 // assertEqual(1, 1);
 // assertEqual(1, 2);
 // assertEqual("Bingo", "Bingo");

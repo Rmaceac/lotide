@@ -7,5 +7,10 @@ const eqArrays = (arr1, arr2) => {
 };
 
 const assertArraysEqual = (arr1, arr2) => {
-  eqArrays(arr1, arr2) ? console.log("🟢🟢🟢 Assertion Passed") : console.log("🛑🛑🛑 Assertion Failed");
+  eqArrays(arr1, arr2) ? console.log(`🟢🟢🟢 Assertion Passed: ${arr1} === ${arr2}`) : console.log(`🛑🛑🛑 Assertion Failed: ${arr1} !== ${arr2}`);
 };
+
+const array1 = [1, 2];
+const array2 = [1, 2];
+const array3= [1, 2, 3];
+
