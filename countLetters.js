@@ -9,7 +9,7 @@ const assertEqual = (actual, expected) => {
 const countLetters = (string) => {
   const letterCount = {};
   for (const letter of string) {
-    if (letter !== " ") {  
+    if (letter !== " ") {
       if (letterCount[letter]) {
         letterCount[letter] += 1;
       } else {
@@ -17,7 +17,7 @@ const countLetters = (string) => {
       }
     }
   } return (letterCount);
-}
+};
 
 // declare empty object to return at end of function
 // loop through string argument with a for...of loop
@@ -27,4 +27,4 @@ const countLetters = (string) => {
 // try wrapping "letter" in quotation marks to see what happens
 
 
-countLetters("ryan maceachern you are number one")
+countLetters("ryan maceachern you are number one");
