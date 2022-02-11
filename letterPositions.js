@@ -12,7 +12,7 @@ const assertArraysEqual = (arr1, arr2) => {
 
 const letterPositions = function(sentence) {
   const results = {};
-  // uncomment line 16 and change "sentence" to "thing" on lines 17-19, 21 to remove all whitespace 
+  // uncomment line 16 and change "sentence" to "thing" on lines 17-19, 21 to remove all whitespace
   // const thing = sentence.split(" ").join("")
   for (let i = 0; i < sentence.length; i++) {
     if (!results[sentence[i]]) {
