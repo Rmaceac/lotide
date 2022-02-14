@@ -1,15 +1,3 @@
-const eqArrays = (arr1, arr2) => {
-  for (let i = 0; i < arr1.length; i++) {
-    if (arr1[i] !== arr2[i] || arr1.length !== arr2.length) {
-      return false;
-    }
-  } return true;
-};
-
-const assertArraysEqual = (arr1, arr2) => {
-  eqArrays(arr1, arr2) ? console.log("🟢🟢🟢 Assertion Passed") : console.log("🛑🛑🛑 Assertion Failed");
-};
-
 const middle = (array) => {
   let midNum = [];
   const midOfArray = array.length / 2;
@@ -22,7 +10,4 @@ const middle = (array) => {
   return midNum;
 };
 
-assertArraysEqual(middle([1, 2, 5, 18, 4, 10]), [5, 18]); // Pass!
-assertArraysEqual(middle([1, 2]), []); // Pass!
-assertArraysEqual(middle([1, 2, 3]), [2]); // Pass!
-
+module.exports = middle;
