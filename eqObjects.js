@@ -16,7 +16,7 @@ const eqArrays = (arr1, arr2) => {
       return false;
     }
     
-  } 
+  }
   return true;
 };
 
@@ -34,7 +34,7 @@ const eqObjects = function(object1, object2) {
       if (!eqArrays(object1[key], object2[key])) {
         return false;
       }
-    }
+    };
     // comparing values of identical keys in different objects
     else if (object1[key] !== object2[key]) {
       return false;

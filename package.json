@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@rmaceac/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "Packages containing useful functions for javascript tasks. This is an educational project and is not intended for professional use",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/Rmaceac/lotide.git"
   },
-  "author": "",
+  "author": "Ryan MacEachern",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Rmaceac/lotide/issues"

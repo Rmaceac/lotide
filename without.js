@@ -16,7 +16,7 @@ const without = (source, itemsToRemove) => {
     if (!items.has(item)) {
       return item;
     }
-  })
+  });
 };
 
 // TEST CASE 1:
